@@ -1,5 +1,5 @@
 homepage: "https://www.mapp.com"
 documentation: "https://www.documentation.mapp.com"
 versions:
-  - sha: 
-    changeNotes: Initial release.
+  - sha: bf65b424d5e25d5134f9feb5a76b35f83e615e29
+    changeNotes: 1.0.0 - initial release
