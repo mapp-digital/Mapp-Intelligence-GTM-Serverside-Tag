@@ -1,0 +1,5 @@
+homepage: "https://www.mapp.com"
+documentation: "https://www.documentation.mapp.com"
+versions:
+  - sha: 
+    changeNotes: Initial release.
