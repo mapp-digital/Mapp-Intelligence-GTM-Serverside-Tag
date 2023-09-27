@@ -1,5 +1,5 @@
 homepage: "https://www.mapp.com"
-documentation: "https://www.documentation.mapp.com"
+documentation: "https://documentation.mapp.com/1.0/en/server-side-tagging-50303494.html"
 versions:
   - sha: bf65b424d5e25d5134f9feb5a76b35f83e615e29
     changeNotes: 1.0.0 - initial release
