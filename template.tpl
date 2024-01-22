@@ -14,7 +14,11 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Mapp Intelligence",
-  "categories": ["ANALYTICS", "CONVERSIONS", "MARKETING"],
+  "categories": [
+    "ANALYTICS",
+    "CONVERSIONS",
+    "MARKETING"
+  ],
   "brand": {
     "id": "brand_dummy",
     "displayName": "",
@@ -181,6 +185,12 @@ ___TEMPLATE_PARAMETERS___
         "type": "TEXT",
         "name": "la",
         "displayName": "Country Code of Device Language (like \u0027en\u0027 or \u0027de\u0027)",
+        "simpleValueType": true
+      },
+      {
+        "type": "TEXT",
+        "name": "tb",
+        "displayName": "Tab Browsing",
         "simpleValueType": true
       }
     ]
@@ -1352,7 +1362,7 @@ if(shallExecute()) {
   }
   
   // parameter data
-  const dataSingle = ["ct", "st", "oi", "ov", "cd", "cr", "is", "mc", "la", "fpv"];
+  const dataSingle = ["ct", "st", "oi", "ov", "cd", "cr", "is", "mc", "la", "fpv", "tb"];
   const dataGroups = ["cg", "Cp", "cp", "Cs", "cs", "Cb", "cb", "Uc", "uc", "Ck", "ck", "cc"];
   const buildParams = (input, urlKey) => {
     input.forEach((trackData) => {
