@@ -1,6 +1,8 @@
 homepage: "https://www.mapp.com"
 documentation: "https://documentation.mapp.com/1.0/en/server-side-tagging-50303494.html"
 versions:
+  - sha: dafa2f673fa0444e1e9e52b046517bc8fbf0a8e4
+    changeNotes: add brand info
   - sha: 314309c3ef40f60fe4929ed36fd34d73e864f9d7
     changeNotes: 1.0.1 - add tab browsing input to device section
   - sha: bf65b424d5e25d5134f9feb5a76b35f83e615e29
