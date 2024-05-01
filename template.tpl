@@ -1274,6 +1274,7 @@ ___TEMPLATE_PARAMETERS___
 ___SANDBOXED_JS_FOR_SERVER___
 
 const encodeUriComponent = require('encodeUriComponent');
+const encodeUri = require('encodeUri');
 const generateRandom = require('generateRandom');
 const getCookieValues = require('getCookieValues');
 const getEventData = require('getEventData');
@@ -1303,7 +1304,7 @@ if(shallExecute()) {
   const time = data.timestamp || getTimestampMillis();
   const pageName = data.pageName || getEventData('page_location') || "no pageName";
   const pageUrl = data.pageUrl || getEventData('page_location') || null;
-  let trackRequest = "https://" + data.trackDomain + "/" + data.trackId + "/wt?";
+  let trackRequest = "https://" + encodeUri(data.trackDomain) + "/" + encodeUri(data.trackId) + "/wt?";
 
   // P parameter
   const getP = () => {
