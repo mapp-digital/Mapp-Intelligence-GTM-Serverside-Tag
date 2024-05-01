@@ -1,6 +1,8 @@
 homepage: "https://www.mapp.com"
 documentation: "https://documentation.mapp.com/1.0/en/server-side-tagging-50303494.html"
 versions:
+  - sha: 0e11c5c5550dea294306fc564d36120c76355e04
+    changeNotes: use encodeUri in trackRequest
   - sha: dafa2f673fa0444e1e9e52b046517bc8fbf0a8e4
     changeNotes: add brand info
   - sha: 314309c3ef40f60fe4929ed36fd34d73e864f9d7
